@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+<title>问题精析：透明物体渲染 - inside</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="canonical" href="http://ssssshinji.github.io/2020/07/08/%E9%97%AE%E9%A2%98%E7%B2%BE%E6%9E%90%EF%BC%9A%E9%80%8F%E6%98%8E%E7%89%A9%E4%BD%93%E6%B8%B2%E6%9F%93/">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<meta name="description" content="丢弃片段(Discard)   些图片并不需要半透明，只需要根据纹理颜色值，显示一部分，或者不显示一部分，没有中间情况。比如说草，如果想不太费劲地创建草这种东西，你需要将一个草的纹理贴在一个2D四边形(Quad)上，然后将这个四边形放到场景中。然而，草的形状和2D四边形的形状并不完全相同，所以你只想显示草纹理的某些部分，而忽略剩下的部分。   下面这个纹理正是这样的，它要么是完全不透明的（alp">
+<meta property="og:type" content="website">
+<meta property="og:title" content="问题精析：透明物体渲染">
+<meta property="og:url" content="http://ssssshinji.github.io/2020/07/08/%E9%97%AE%E9%A2%98%E7%B2%BE%E6%9E%90%EF%BC%9A%E9%80%8F%E6%98%8E%E7%89%A9%E4%BD%93%E6%B8%B2%E6%9F%93/index.html">
+<meta property="og:site_name" content="inside">
+<meta property="og:description" content="丢弃片段(Discard)   些图片并不需要半透明，只需要根据纹理颜色值，显示一部分，或者不显示一部分，没有中间情况。比如说草，如果想不太费劲地创建草这种东西，你需要将一个草的纹理贴在一个2D四边形(Quad)上，然后将这个四边形放到场景中。然而，草的形状和2D四边形的形状并不完全相同，所以你只想显示草纹理的某些部分，而忽略剩下的部分。   下面这个纹理正是这样的，它要么是完全不透明的（alp">
+<meta property="og:locale" content="zh">
+<meta property="og:image" content="http://ssssshinji.github.io/2020/07/08/%E9%97%AE%E9%A2%98%E7%B2%BE%E6%9E%90%EF%BC%9A%E9%80%8F%E6%98%8E%E7%89%A9%E4%BD%93%E6%B8%B2%E6%9F%93/1.png">
+<meta property="article:published_time" content="2020-07-07T18:01:28.000Z">
+<meta property="article:modified_time" content="2020-07-07T18:25:11.619Z">
+<meta property="article:author" content="zyt">
+<meta property="article:tag" content="计算机图形学">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://ssssshinji.github.io/2020/07/08/%E9%97%AE%E9%A2%98%E7%B2%BE%E6%9E%90%EF%BC%9A%E9%80%8F%E6%98%8E%E7%89%A9%E4%BD%93%E6%B8%B2%E6%9F%93/1.png">
+
+
+<link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
+<link href="/styles.c3f8d35f4c49a6d852da.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/theme.1ba4e0ca040d8fed2663.css" is="theme">
+
+
+<script src="/config.84e51244144299eed664.js"></script>
+
+
+<meta name="generator" content="Hexo 4.2.1"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body lang="en">
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><is-a></is-a>
+<script src="/runtime.1720a40670866f12654e.js"></script>
+<script src="/polyfills.eefc5b1aaca1e85d221f.js"></script>
+<script src="/main.41823d1d138ca02e839b.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>
