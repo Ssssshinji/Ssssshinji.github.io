@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+<title>问题精析：骨骼层级及坐标空间变换 - inside</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="canonical" href="http://ssssshinji.github.io/2020/07/31/%E9%97%AE%E9%A2%98%E7%B2%BE%E6%9E%90%EF%BC%9A%E9%AA%A8%E9%AA%BC%E5%B1%82%E7%BA%A7%E5%8F%8A%E5%9D%90%E6%A0%87%E7%A9%BA%E9%97%B4%E5%8F%98%E6%8D%A2/">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<meta name="description" content="重点矩阵知识   要记住，将A坐标系通过旋转，平移等矩阵操作变换到B坐标系的时候，整合所有变换矩阵所得到的是B空间转换到A空间的转换矩阵！ 默认姿势（default pose）   在导入模型时，我们常常会看到T字形的人物，这是最常用的默认姿势。目的是为了方便变换矩阵的计算（后详述）。 骨骼层级    一般来说盆骨是根节点。 坐标空间变换    在导入模型时，我们会先得到其物体空间（Object">
+<meta property="og:type" content="website">
+<meta property="og:title" content="问题精析：骨骼层级及坐标空间变换">
+<meta property="og:url" content="http://ssssshinji.github.io/2020/07/31/%E9%97%AE%E9%A2%98%E7%B2%BE%E6%9E%90%EF%BC%9A%E9%AA%A8%E9%AA%BC%E5%B1%82%E7%BA%A7%E5%8F%8A%E5%9D%90%E6%A0%87%E7%A9%BA%E9%97%B4%E5%8F%98%E6%8D%A2/index.html">
+<meta property="og:site_name" content="inside">
+<meta property="og:description" content="重点矩阵知识   要记住，将A坐标系通过旋转，平移等矩阵操作变换到B坐标系的时候，整合所有变换矩阵所得到的是B空间转换到A空间的转换矩阵！ 默认姿势（default pose）   在导入模型时，我们常常会看到T字形的人物，这是最常用的默认姿势。目的是为了方便变换矩阵的计算（后详述）。 骨骼层级    一般来说盆骨是根节点。 坐标空间变换    在导入模型时，我们会先得到其物体空间（Object">
+<meta property="og:locale" content="zh">
+<meta property="og:image" content="http://ssssshinji.github.io/2020/07/31/%E9%97%AE%E9%A2%98%E7%B2%BE%E6%9E%90%EF%BC%9A%E9%AA%A8%E9%AA%BC%E5%B1%82%E7%BA%A7%E5%8F%8A%E5%9D%90%E6%A0%87%E7%A9%BA%E9%97%B4%E5%8F%98%E6%8D%A2/1.png">
+<meta property="article:published_time" content="2020-07-30T17:29:55.000Z">
+<meta property="article:modified_time" content="2020-08-01T18:03:51.386Z">
+<meta property="article:author" content="zyt">
+<meta property="article:tag" content="计算机图形学">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://ssssshinji.github.io/2020/07/31/%E9%97%AE%E9%A2%98%E7%B2%BE%E6%9E%90%EF%BC%9A%E9%AA%A8%E9%AA%BC%E5%B1%82%E7%BA%A7%E5%8F%8A%E5%9D%90%E6%A0%87%E7%A9%BA%E9%97%B4%E5%8F%98%E6%8D%A2/1.png">
+
+
+<link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
+<link href="/styles.c3f8d35f4c49a6d852da.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/theme.1ba4e0ca040d8fed2663.css" is="theme">
+
+
+<script src="/config.bbcdc80fc076d65cf9d9.js"></script>
+
+
+<meta name="generator" content="Hexo 4.2.1"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body lang="en">
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><is-a></is-a>
+<script src="/runtime.1720a40670866f12654e.js"></script>
+<script src="/polyfills.eefc5b1aaca1e85d221f.js"></script>
+<script src="/main.41823d1d138ca02e839b.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

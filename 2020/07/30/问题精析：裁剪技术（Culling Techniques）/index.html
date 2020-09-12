@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+<title>问题精析：裁剪技术（Culling Techniques） - inside</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="canonical" href="http://ssssshinji.github.io/2020/07/30/%E9%97%AE%E9%A2%98%E7%B2%BE%E6%9E%90%EF%BC%9A%E8%A3%81%E5%89%AA%E6%8A%80%E6%9C%AF%EF%BC%88Culling%20Techniques%EF%BC%89/">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<meta name="description" content="概念   裁剪（Culling）的字面意思是“从大量事物中进行删除”。在计算机图形学中，相对应的就是裁剪技术（Culling Techniques）所要做的工作——“从大量游戏事物中进行删除”。所谓的“大量事物”就是需要绘制的整个场景，删除的是对最终图像没有贡献的场景部分，然后将剩余场景发送到渲染管线。因此，在渲染方面通常使用“可见性裁剪（Visibility Culling）”这个术语。但其实">
+<meta property="og:type" content="website">
+<meta property="og:title" content="问题精析：裁剪技术（Culling Techniques）">
+<meta property="og:url" content="http://ssssshinji.github.io/2020/07/30/%E9%97%AE%E9%A2%98%E7%B2%BE%E6%9E%90%EF%BC%9A%E8%A3%81%E5%89%AA%E6%8A%80%E6%9C%AF%EF%BC%88Culling%20Techniques%EF%BC%89/index.html">
+<meta property="og:site_name" content="inside">
+<meta property="og:description" content="概念   裁剪（Culling）的字面意思是“从大量事物中进行删除”。在计算机图形学中，相对应的就是裁剪技术（Culling Techniques）所要做的工作——“从大量游戏事物中进行删除”。所谓的“大量事物”就是需要绘制的整个场景，删除的是对最终图像没有贡献的场景部分，然后将剩余场景发送到渲染管线。因此，在渲染方面通常使用“可见性裁剪（Visibility Culling）”这个术语。但其实">
+<meta property="og:locale" content="zh">
+<meta property="og:image" content="http://ssssshinji.github.io/2020/07/30/%E9%97%AE%E9%A2%98%E7%B2%BE%E6%9E%90%EF%BC%9A%E8%A3%81%E5%89%AA%E6%8A%80%E6%9C%AF%EF%BC%88Culling%20Techniques%EF%BC%89/1.png">
+<meta property="article:published_time" content="2020-07-30T04:38:01.000Z">
+<meta property="article:modified_time" content="2020-07-30T10:26:22.728Z">
+<meta property="article:author" content="zyt">
+<meta property="article:tag" content="计算机图形学">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://ssssshinji.github.io/2020/07/30/%E9%97%AE%E9%A2%98%E7%B2%BE%E6%9E%90%EF%BC%9A%E8%A3%81%E5%89%AA%E6%8A%80%E6%9C%AF%EF%BC%88Culling%20Techniques%EF%BC%89/1.png">
+
+
+<link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
+<link href="/styles.c3f8d35f4c49a6d852da.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/theme.1ba4e0ca040d8fed2663.css" is="theme">
+
+
+<script src="/config.bbcdc80fc076d65cf9d9.js"></script>
+
+
+<meta name="generator" content="Hexo 4.2.1"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body lang="en">
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><is-a></is-a>
+<script src="/runtime.1720a40670866f12654e.js"></script>
+<script src="/polyfills.eefc5b1aaca1e85d221f.js"></script>
+<script src="/main.41823d1d138ca02e839b.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+<title>问题精析：蒙皮原理 - inside</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="canonical" href="http://ssssshinji.github.io/2020/08/06/%E9%97%AE%E9%A2%98%E7%B2%BE%E6%9E%90%EF%BC%9A%E8%92%99%E7%9A%AE%E5%8E%9F%E7%90%86/">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<meta name="description" content="概念   骨架是一个概念结构，与之关联的实际三维几何体是角色的多边形网格。由骨骼运动变形的多边形网格通常称为蒙皮。本节介绍皮肤如何平滑变形。 数学原理   我们先假设一个顶点只属于一根骨骼，这会导致不自然的皮肤变形。下图展示了这一情况，其中v2，v3只属于前臂而v1只属于上臂。    通过使多个骨骼影响一个顶点，然后混合结果，而不是将一个顶点绑定到单个骨骼，可以缓解该问题。为此，为每个影响顶点的">
+<meta property="og:type" content="website">
+<meta property="og:title" content="问题精析：蒙皮原理">
+<meta property="og:url" content="http://ssssshinji.github.io/2020/08/06/%E9%97%AE%E9%A2%98%E7%B2%BE%E6%9E%90%EF%BC%9A%E8%92%99%E7%9A%AE%E5%8E%9F%E7%90%86/index.html">
+<meta property="og:site_name" content="inside">
+<meta property="og:description" content="概念   骨架是一个概念结构，与之关联的实际三维几何体是角色的多边形网格。由骨骼运动变形的多边形网格通常称为蒙皮。本节介绍皮肤如何平滑变形。 数学原理   我们先假设一个顶点只属于一根骨骼，这会导致不自然的皮肤变形。下图展示了这一情况，其中v2，v3只属于前臂而v1只属于上臂。    通过使多个骨骼影响一个顶点，然后混合结果，而不是将一个顶点绑定到单个骨骼，可以缓解该问题。为此，为每个影响顶点的">
+<meta property="og:locale" content="zh">
+<meta property="og:image" content="http://ssssshinji.github.io/2020/08/06/%E9%97%AE%E9%A2%98%E7%B2%BE%E6%9E%90%EF%BC%9A%E8%92%99%E7%9A%AE%E5%8E%9F%E7%90%86/1.png">
+<meta property="article:published_time" content="2020-08-05T18:07:43.000Z">
+<meta property="article:modified_time" content="2020-08-06T03:40:25.567Z">
+<meta property="article:author" content="zyt">
+<meta property="article:tag" content="计算机图形学">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://ssssshinji.github.io/2020/08/06/%E9%97%AE%E9%A2%98%E7%B2%BE%E6%9E%90%EF%BC%9A%E8%92%99%E7%9A%AE%E5%8E%9F%E7%90%86/1.png">
+
+
+<link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
+<link href="/styles.c3f8d35f4c49a6d852da.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/theme.1ba4e0ca040d8fed2663.css" is="theme">
+
+
+<script src="/config.bbcdc80fc076d65cf9d9.js"></script>
+
+
+<meta name="generator" content="Hexo 4.2.1"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body lang="en">
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><is-a></is-a>
+<script src="/runtime.1720a40670866f12654e.js"></script>
+<script src="/polyfills.eefc5b1aaca1e85d221f.js"></script>
+<script src="/main.41823d1d138ca02e839b.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>
